@@ -17,11 +17,8 @@ import org.springframework.security.ldap.userdetails.UserDetailsContextMapper;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
  
 	@Value( "${parent.front.micro.services}" )
-	private String parent_micro_services;
 	
 	@Autowired 
-	private UserDetailsContextMapper userDetailsContextMapper;
-
     @Override
     protected void configure(HttpSecurity http) throws Exception {
  

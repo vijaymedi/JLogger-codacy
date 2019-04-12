@@ -46,7 +46,7 @@ public class DashBoardLogServiceImpl implements DashBoardLogService{
 //	private Map<String,String> projectmp;
 	
 	
-
+	
 	@Override
 	public List<ProjectMasterDTO>  getProjectDetails(){
 		List <ProjectMasterDTO> pmdtolist=new ArrayList<ProjectMasterDTO>();
